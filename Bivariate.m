@@ -1,4 +1,4 @@
-%%
+%% Creates bivariate plots for chemistry data
 clear all, close all, clc %use AlaskaPCA2022_2023, not EM
 [sFile, sPath] = uigetfile('*.xlsx', 'Select Database File');
 sFullPath = fullfile(sPath, sFile);
