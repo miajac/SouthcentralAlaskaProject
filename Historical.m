@@ -1,4 +1,4 @@
-%% Discharge plots
+%% Utilize historical USGS data
 clear all, close all, clc %use Calcium
 [sFile, sPath] = uigetfile('*.xlsx', 'Select Database File');
 sFullPath = fullfile(sPath, sFile);
